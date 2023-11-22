@@ -1,0 +1,137 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    height: 100vh;
+}
+
+.card-container{
+    background-color: #454955;
+    width: 25%;
+    height:75%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+}
+@media screen and (max-width:769px){
+    .card-container{
+        width: 100%;
+        height: 100%;
+    }
+}
+.user-image{
+    align-self: center;
+    width: 130px;
+    border-radius: 80px;
+    margin-top: 15px;
+}
+.arrow{
+    color: #ffffff;
+    align-self: center;
+}
+.like-icon{
+    color: #ffffff;
+    font-size: 20px;
+    align-self: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    display: flex;
+}
+.menu-icon{
+    color: #ffffff;
+    align-self: center;
+    font-size: 15px;
+    margin-left: 6px;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.user-name{
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 600;
+}
+.description{
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.role-desc{
+    color: #eef0f2;
+    font-size: 13px;
+    font-weight: 300;
+}
+.hire-button{
+    background-color: #ff477e;
+    color: #ffffff;
+    font-family: "Open Sans";
+    height: 30px;
+    width: 90px;
+    border: 0px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+}
+.horizontal-line{
+    margin-top: 20px;
+    border: 1px solid #ffffff;
+}
+.footer-icon{
+    color: #ffffff;
+    font-size: 25px;
+}
+.container2{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    align-self: center;
+}
+.footer-section{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.followers-number{
+    color: #ffffff;
+    font-size: 17px;
+    align-self: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.followers-text{
+    color: #ced4da;
+    font-size: 13px;
+    font-weight: 300;
+    align-self: center;
+}
+
+.pink{
+    background-color: #d81159;
+}
+.violet{
+    background-color: #c77dff;
+}
